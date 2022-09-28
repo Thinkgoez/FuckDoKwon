@@ -228,10 +228,10 @@ h6 {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 1.2vw;
-	line-height: 1.3vw;
+	line-height: 1.4vw;
 	text-align: center;
 	color: #ffffff;
-	margin-bottom: 1.2vw;
+	margin-bottom: 1.3vw;
 }
 
 .yellow {
@@ -263,12 +263,12 @@ h6 {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 1.2vw;
-	line-height: 1.3vw;
+	line-height: 1.4vw;
 	text-align: center;
 	color: #ffffff;
 	/* max-width: 800px; */
 	/* max-width: 60%; */
-	margin-bottom: 0.6vw;
+	margin-bottom: 1.3vw;
 }
 
 .info__text p:last-child {
