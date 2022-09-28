@@ -141,7 +141,7 @@ h6 {
 	align-items: flex-end;
 }
 
-.comunity-text {
+.community-text {
 	font-family: 'GoodDog';
 	font-style: normal;
 	font-weight: 400;
@@ -461,6 +461,18 @@ b {
 }
 
 /* ========================================== */
+
+@media (orientation: portrait) {
+	.community-text {
+		font-size: 5vw;
+		line-height: 5.2vw;
+	}
+	.info__text .info__title,
+	.info__text p {
+		font-size: 2vw;
+		line-height: 2.2vw;
+	}
+}
 
 @media screen and (max-width: 1200px) {
 	.community__block {
