@@ -24,7 +24,7 @@ h6 {
 }
 
 @font-face {
-	font-family: 'GoodDog Plain';
+	font-family: 'GoodDog';
 	src: url('../fonts/GOODDP__.ttf') format('truetype');
 	font-style: normal;
 	font-weight: normal;
@@ -48,6 +48,7 @@ h6 {
 	backdrop-filter: blur(10px);
 	border-radius: 0px 0px 15px 15px;
 	padding: 30px 48px 26px 30px;
+	padding: 1.6vw 2vw;
 	/* text-align: end; */
 	width: 90vw;
 	margin: 0 auto;
@@ -65,12 +66,17 @@ h6 {
 	justify-content: center;
 }
 
+.header__icon img{
+	width: 3vw;
+}
+
 .header__icon span {
 	margin-left: 10px;
 	font-family: 'GrinchedRegular';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 24px;
+	/* font-size: 24px; */
+	font-size: 1.2vw;
 	color: #ffffff;
 }
 
@@ -78,7 +84,7 @@ h6 {
 	font-family: 'Poppins';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 0.8vw;
 	color: #ffffff;
 	margin-right: 30px;
 	text-decoration: none;
@@ -98,18 +104,16 @@ h6 {
 
 .community__block {
 	padding-top: 172px;
+	padding-top: 11vw;
 	width: 100%;
+	min-height: 60vw;
 	height: 100vh;
 	background-color: #16072a;
 	background-image: url('../img/bg_main_left.png'), url('../img/slices.png'),
 		url('../img/door.png');
-	/* background-image: url('../img/bg_main_left.png'),
-		url('../img/door.png'); */
-	/* background-position: left bottom, right bottom; */
 	background-position: left bottom, center bottom, right bottom;
 	background-repeat: no-repeat;
-	/* background-size: contain, contain; */
-	background-size: 50% 100%, 50% 100%, 50% 100%;
+	background-size: 50% 95%, 50% 100%, 50% 100%;
 	box-sizing: border-box;
 }
 
@@ -128,17 +132,18 @@ h6 {
 }
 
 .comunity-text {
-	font-family: 'GoodDog Plain';
+	font-family: 'GoodDog';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 40px;
+	font-size: 2.2vw;
 	margin: 0 auto;
 	color: #ffffff;
 	text-align: start;
 }
 
 .fuck__block {
-	margin-top: 55px;
+	/* margin-top: 55px; */
+	margin-top: 2.5vw;
 	transform: translateX(-50%);
 }
 
@@ -201,7 +206,8 @@ h6 {
 	background: url('../img/bg_blot.svg') no-repeat center;
 	background-size: contain;
 	height: 100%;
-	padding: 180px 0;
+	/* padding: 180px 0; */
+	padding: 10vw 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -211,23 +217,24 @@ h6 {
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 24px;
+	font-size: 1.2vw;
+	line-height: 1.3vw;
 	text-align: center;
 	color: #ffffff;
-	margin-bottom: 30px;
+	margin-bottom: 1.2vw;
 }
 
 .yellow {
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 24px;
+	/* font-size: 24px; */
 	text-align: center;
 	color: #fee608;
 }
 
 .dog {
-	font-family: 'GoodDog Plain';
+	font-family: 'GoodDog';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
@@ -236,7 +243,8 @@ h6 {
 }
 
 .info__text {
-	max-width: 90vw;
+	/* max-width: 90vw; */
+	max-width: 60vw;
 }
 
 .info__text p {
@@ -244,17 +252,18 @@ h6 {
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 24px;
-	line-height: 29px;
+	font-size: 1.2vw;
+	line-height: 1.3vw;
 	text-align: center;
 	color: #ffffff;
-	max-width: 800px;
-	margin-bottom: 15px;
+	/* max-width: 800px; */
+	/* max-width: 60%; */
+	margin-bottom: 0.6vw;
 }
 
 .info__text p:last-child {
 	margin-bottom: 0;
-	margin-top: 35px;
+	margin-top: 1.4vw;
 }
 
 .comics__block {
@@ -305,7 +314,7 @@ img.revers {
 }
 
 .comics__title {
-	font-family: 'GoodDog Plain';
+	font-family: 'GoodDog';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
@@ -334,7 +343,6 @@ img.revers {
 	padding: 70px 10px 100px 10px;
 	background: url('../img/bg_dotes.png') no-repeat center;
 	max-width: 1532px;
-	height: 1056px;
 	margin: 0 auto;
 }
 
@@ -345,7 +353,7 @@ img.revers {
 }
 
 .road__container h2 {
-	font-family: 'GoodDog Plain';
+	font-family: 'GoodDog';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
@@ -359,6 +367,10 @@ img.revers {
 .road__map {
 	display: flex;
 	justify-content: center;
+}
+
+.road__map.mobile {
+	display: none;
 }
 
 .road__map-col {
@@ -438,14 +450,29 @@ b {
 	background-color: #000;
 }
 
-@media screen and (max-width: 1280px) {
+/* ========================================== */
+
+@media screen and (max-width: 1200px) {
+	.community__block {
+    height: 100%;
+  }
+
+/* @media screen and (max-width: 1100px) {
 	.community__block {
     background-image: url('../img/bg_main_left.png');
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
-}
+} */
+/* @media screen and (max-width: 1280px) {
+	.community__block {
+    background-image: url('../img/bg_main_left.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+} */
 @media screen and (max-width: 960px) {
 	.comments_img {
 		width: 40vw;
@@ -465,25 +492,45 @@ b {
 }
 
 @media screen and (max-width: 600px) {
-  .header {
+  /* .header {
     padding: 10px 18px 16px;
   }
 	.header__block {
     flex-direction: column;
-	}
-  .community__block {
+	} */
+  /* .community__block {
     background-image: url('../img/bg_main_left.png'), url('../img/door.png');
     background-position: left bottom, right top;
     background-repeat: no-repeat;
     background-size: 100% 50%;
-  }
-  .community h1 {
+  } */
+  /* .community h1 {
     font-size: 15vw;
-  }
+  } */
 }
 
 @media screen and (max-width: 450px) {
 	.road__map {
+		display: none;
+	}
+	.road__map-item {
+		flex-direction: row-reverse;
+		position: relative;
+		margin-bottom: 35px;
+	}
+	/* .road__map-item:not(:last-child)::after{ */
+	.road__map-item::before{
+		content: "";
+		width: 1px;
+		height: 30px;
+		background-color: #fee608;
+		position: absolute;
+		left: 50%;
+		top: 0;
+		transform: translateY(-100%);
+	}
+	
+	.road__map.mobile {
 		display: block;
 	}
 	.road__map-col {
@@ -492,11 +539,17 @@ b {
 	.road__map-text {
 		text-align: left;
 	}
-	.road__map .road__map-item {
-		flex-direction: row-reverse;
-		margin-bottom: 25px;
-	}
 	.road__map img {
 		margin: 0 26px;
+	}
+	/* .roud__img {
+		display: none;
+	} */
+	.road__map .road__map-item:first-child{
+		padding-top: 0px;
+		margin-top: 30px;
+	}
+	.road__block-img {
+		padding: 30px 10px;
 	}
 }
