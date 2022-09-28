@@ -119,8 +119,8 @@ h6 {
 	min-height: 60vw;
 	height: 100vh;
 	background-color: #16072a;
-	background-image: url('../img/bg_main_left.png'), url('../img/slices.png'),
-		url('../img/door.png');
+	background-image: url('../img/bg_main_left-min.png'), url('../img/slices-min.png'),
+		url('../img/door-min.png');
 	background-position: left bottom, center bottom, right bottom;
 	background-repeat: no-repeat;
 	background-size: 50% 95%, 50% 100%, 50% 100%;
@@ -351,7 +351,7 @@ img.revers {
 
 .road__block-img {
 	padding: 70px 10px 100px 10px;
-	background: url('../img/bg_dotes.png') no-repeat center;
+	background: url('../img/bg_dotes-min.png') no-repeat center;
 	max-width: 1532px;
 	margin: 0 auto;
 }
