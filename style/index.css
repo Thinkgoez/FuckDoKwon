@@ -25,7 +25,13 @@ h6 {
 
 @font-face {
 	font-family: 'GoodDog';
-	src: url('../fonts/GoodDog.ttf') format('truetype');
+	src: url('../fonts/GoodDog.ttf');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Inter';
+	src: url('../fonts/Inter-Regular.ttf');
 	font-style: normal;
 	font-weight: normal;
 }
